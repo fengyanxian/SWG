@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
+  <meta name="description" content="雨涵（Yu Han）的个人网站">
+  <meta name="keywords" content="雨涵, Yu Han">
+  <meta name="author" content="Yu Han">
+  <meta name="format-detection" content="telephone=no">
+  <title>雨涵 · Yu Han</title>
+	<!--link-css-->
+	<!-- Bootstrap CSS -->
+	<!--<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">-->
+	<!-- Bootstrap theme -->
+	<!--<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">-->
+	<link rel="stylesheet" href="/yuHan/assets/css/all.css">
+	<link rel="shortcut icon" type="image/x-icon" href="/plugins/assets/images/favicon.ico">
+  <script src="./assets/js/jquery.min.js"></script>
+  <script src="./assets/js/LiftEffect.js"></script>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      font-family: "Calibre","Helvetica Neue",Helvetica,Arial,sans-serif;
+    }
+    body {
+      min-width: 600px;
+      color: #333;
+    }
+    .lift-nav {
+      position: fixed;
+      top: 100px;
+      left: 30px;
+      /*display: none;*/
+    }
+    .lift-nav li{
+
+      position: relative;
+      height: 30px;
+      text-align: center;
+      line-height: 30px;
+      /*color: #d6a790;*/
+      color: rgba(255, 255, 255, 0.8);
+      padding: 10px 10px;
+      margin-bottom: 10px;
+      background: skyblue;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    .lift-nav li:first-child {
+      background-color: #EC9564;
+    }
+    .lift-nav li:nth-child(2) {
+      background-color: #8865BC;
+    }
+    .lift-nav li:nth-child(3) {
+      background-color: #F2CB6F;
+    }
+    .lift-nav li:nth-child(4) {
+      background-color: #82B7A1;
+    }
+
+    .lift-nav li:before {
+      transition: all .5s;
+      position: absolute;
+      top: 50%;
+      right: 25px;
+      bottom: auto;
+      left: auto;
+      content: " ";
+      width: 0;
+      height: 0;
+      z-index: -1;
+      transform: translateY(-50%);
+      border-top: 25px solid  transparent;
+      border-right:25px solid  transparent;
+      border-left: 25px solid  tomato;
+      border-bottom: 25px solid transparent;
+    }
+    .lift-nav li.current {
+      background: tomato;
+      color: #fff;
+    }
+    .lift-nav li.current:before {
+      right: -48px;
+    }
+
+    .lift-target {
+      margin-left: 202px;
+    }
+    h3 {
+      margin: 10px 0;
+    }
+    .t1,.t2,.t3,.t4 {
+      width: 1000px;
+      background: skyblue;
+      margin: 100px auto;
+      font-size: 16px;
+      border-radius: 5px;
+    }
+    .t1 {
+      margin-top: 200px;
+      padding: 10px;
+      background-color: #D7E2CD;
+    }
+    .t2{
+      background: pink;
+      padding: 10px;
+    }
+    .t2 img {
+      width: 25%;
+    }
+    .t3{
+      background-color: rgba(242, 203, 111, 0.5);
+      padding: 10px;
+    }
+    .t3 img {
+      width: 25%;
+    }
+    .t4{
+      background-color: rgba(130, 183, 161, 0.5);
+      padding: 10px;
+    }
+    .t4 img {
+      width: 25%;
+    }
+    .t5{
+      background: yellow;
+    }
+    .t6{
+      background: seagreen;
+    }
+
+    .img {
+      width: 100%;
+      transition: all 1s;
+    }
+
+    img[animal]:hover {
+       transform: scale(1.2, 1.2);
+    }
+  </style>
+</head>
+<body>
+	<header><span>雨涵 · Yu Han</span><span>我的精彩我做主</span></header>
+  <div class="menu lift-nav">
+    <ul class="lift">
+      <li>我是一名少先队员</li>
+      <li>家风家训</li>
+      <li>水质日照书画展</li>
+      <li>开学安全第一课</li>
+    </ul>
+  </div>
+  <div class="lift-target">
+    <div class="t1">
+      <h3 class="txt-center">我是一名合格的少先队员演讲稿</h3>
+      <p>同学们，你们可曾记得当初入队时在辅导员老师的带领下，举起右手高呼：“时刻准备着，为共产主义事业而奋斗！” ，“时刻准备着”不仅仅是口号，更是行动！我们是花朵，是祖国的未来与希望，我们是新世纪的雏鹰。今天，我们磨练羽翼；明天，我们就要搏击长空！我们要珍惜现在的美好时光，努力学习，用知识的力量来武装自己，将来报效祖国！</p>
+      <p>今年的10月13日是中国少年先锋队成立68周年的日子。在这个特殊的日子里，我们更应该注意少先队员的一言一行。班上谁的椅子倒了，是少先队员扶起了；班上谁丢了铅笔橡皮，是少先队员找到了；下课了，是少先队员抢着把黑板擦干净了;打扫卫生,是少先队员做了最苦最累的活，哪里有困难哪里就有我们少先员！</p>
+      <p>中国少年先锋队成立后，有成千上万的成员在她的旗帜下宣过誓，整整几代人打着星星火炬的旗帜，戴着光荣的红领巾在这个组织里茁壮成长，现如今，她已经成为世界上规模最大的儿童组织。在这个组织中，有的为新中国的创建事业献出年轻而宝贵的生命，有的为社会主义建设事业作出了极大的贡献。</p>
+      <p>今天我们沐浴在社会主义的阳光雨露下，是多么幸福，战争的硝烟早已消失，枪林弹雨也变得遥远。生活在今天这样的一个和平的年代里，我们更应该听党的话，爱祖国，爱人民，爱劳动，爱科学，爱护公共财物，努力学习，锻炼身体，培养能力，将来不负国家和人民的重托，建设祖国，强大祖国，使她永远傲然屹立于世界民族之林。</p>
+      <p>同学们，我们要继承先辈的宏愿、牢记神圣的使命；高举星星火炬、练就过硬的本领；锻炼强健的体魄、磨砺顽强的意志。让我们努力学习，奋发图强，争当一名合格的少先队员！我自豪，我是中国人；我自豪，我是一名合格的少先队员！今天，我们以我们是一名少先队员而骄傲，明天少先队这个光荣的组织一定会为我们而自豪！谢谢大家！</p>
+    </div>
+    <div class="t2">
+      <h3 class="txt-center">我的家风家训</h3>
+      <p>无论大家、小家都要有一定的家风家训，“国有国法，校有校规，家有家风”是人们常挂在嘴边的一句话，但家风家训是什么呢？今天我就谈一谈我家的家风家训吧。</p>
+      <p>所谓的家风就是自己家里的风气，家里的风气好不好就会影响到子孙后代。我们中国的每一个家庭都有自己的家风家训，我家自然也不例外，我家的家风是以德立家，以德治家，团结向上，孝敬父母。父母一直告诫我，百善孝为先。家风是一条应该牢记的座右铭，有了它，我们才可以在社会上立足，才能让自己走的更远。铭记家风，为自己的人生奠定坚实的基础。</p>
+      <p>我家的家训是尊敬老师、长辈，勤劳节俭，懂得持家，邻居之间和睦共处。自小受家庭和父母的影响，把勤劳、节俭的作风来规范自己的行动和价值观。我会努力去做，同时也会影响周围的人，让他们也做到。我现在还能主动向长辈们问好，同学之间搞好团结，有时和同学闹点小矛盾，是我的错一定主动向同学道歉，不是我的错也不追究，退一步海阔天空吗！自己的事情自己做，作业做完了，才能有娱乐时间。当天的事情当天做，不能拖拉，每天要运动，养成良好的习惯。一个好的家风家训能让我更加了解到了中国文化的进步，让我们踏出坚定的步伐，成为国家的栋梁之才，长大为国家做出更大贡献。</p>
+      <p>我希望我家的家风家训能世世代代传承下去，家风家训是一种正能量，我们要时时刻刻严格要求自己。要从每个家庭做起，弘扬民族精神。</p>
+
+      <img animal src="./assets/images/home/家1.jpg" alt="家"/>
+      <img animal src="./assets/images/home/家2.jpg" alt="家"/>
+      <img animal src="./assets/images/home/家3.jpg" alt="家"/>
+      <img animal src="./assets/images/home/家4.jpg" alt="家"/>
+    </div>
+    <div class="t3">
+      <h3 class="txt-center">水质日照书画展</h3>
+      <img animal src="./assets/images/expo/水1.jpg" alt="画展"/>
+      <img animal src="./assets/images/expo/水2.jpg" alt="画展"/>
+      <img animal src="./assets/images/expo/水3.jpg" alt="画展"/>
+      <img animal src="./assets/images/expo/水4.jpg" alt="画展"/>
+      <img animal src="./assets/images/expo/水5.jpg" alt="画展"/>
+      <img animal src="./assets/images/expo/水6.jpg" alt="画展"/>
+      <img animal src="./assets/images/expo/水7.jpg" alt="画展"/>
+      <img animal src="./assets/images/expo/水8.jpg" alt="画展"/>
+    </div>
+    <div class="t4">
+      <h3 class="txt-center">开学安全第一课</h3>
+      <img animal src="./assets/images/safety/4.1.jpg" alt="安全第一课"/>
+      <img animal src="./assets/images/safety/4.2.jpg" alt="安全第一课"/>
+      <img animal src="./assets/images/safety/4.12.jpg" alt="安全第一课"/>
+      <img animal src="./assets/images/safety/4.13.jpg" alt="安全第一课"/>
+      <img animal src="./assets/images/safety/4.14.jpg" alt="安全第一课"/>
+      <img animal src="./assets/images/safety/4.15.jpg" alt="安全第一课"/>
+      <img animal src="./assets/images/safety/4.16.jpg" alt="安全第一课"/>
+      <img animal src="./assets/images/safety/4.21.jpg" alt="安全第一课"/>
+      <img animal src="./assets/images/safety/4.22.jpg" alt="安全第一课"/>
+
+    </div>
+  </div>
+
+  <script>
+    $(function(){
+      LiftEffect({
+        "control1": ".lift-nav", 						  //侧栏电梯的容器
+        "control2": ".lift",                           //需要遍历的电梯的父元素
+        "target": [".t1",".t2",".t3",".t4"], //监听的内容，注意一定要从小到大输入
+        "current": "current" 						  //选中的样式
+      });
+    })
+  </script>
+
+</body>
+</html>

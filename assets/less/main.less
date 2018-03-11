@@ -1,0 +1,44 @@
+/**
+  * 页面样式
+  * 每个页面对应
+  */
+@import '_variable.less';
+@import '_mixin.less';
+@import 'common.less';
+body {
+	.navbar {
+		.navbar-header {
+			background: url(../images/logo.png) no-repeat center left !important;
+		}
+	}
+	header {
+		.fixed(0, 0, auto, 0, 1000);
+		background: #535353;
+		height: 60px;
+		line-height: 60px;
+		padding: 0;
+		padding-left: 30px;
+		display: block;
+		font-family: 'Cabin', sans-serif;
+		color: #f3f3f3;
+		span:first-child {
+			transform: scale(1.2, 1.2);
+		}
+		span:last-child {
+			display: inline-block;
+			text-align: center;
+		}
+	}
+	.menu1 {
+		.absolute(61px, auto, auto, 0, 1);
+		width: 160px;
+		background-color: #d69840;
+	}
+	.main-container1 {
+		border: 1px solid red;
+		width: 90%;
+		margin-left: 160px;
+		background-color: #dbdbdb;
+		position: relative;
+	}
+}
