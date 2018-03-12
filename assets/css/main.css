@@ -584,29 +584,76 @@ body header {
   bottom: auto;
   left: 0;
   z-index: 1000;
-  background: #535353;
+  background: rgba(83, 83, 83, 0.9);
   height: 60px;
   line-height: 60px;
   padding: 0;
   padding-left: 30px;
   display: block;
   font-family: 'Cabin', sans-serif;
-  color: #f3f3f3;
+  color: #fff;
 }
-body .menu1 {
-  position: absolute;
-  top: 61px;
+body header span {
+  transform: scale(1.3, 1.3);
+  position: fixed;
+  top: auto;
   right: auto;
   bottom: auto;
-  left: 0;
-  z-index: 1;
-  width: 160px;
-  background-color: #d69840;
+  left: 30px;
+  z-index: 0;
 }
-body .main-container1 {
-  border: 1px solid red;
-  width: 90%;
-  margin-left: 160px;
-  background-color: #dbdbdb;
-  position: relative;
+.t1,
+.t2,
+.t3,
+.t4 {
+  width: 1000px;
+  padding: 10px;
+  background: skyblue;
+  margin: 100px auto;
+  font-size: 16px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.t1.t1,
+.t2.t1,
+.t3.t1,
+.t4.t1 {
+  margin-top: 100px;
+  background-color: #D7E2CD;
+}
+.t1.t2,
+.t2.t2,
+.t3.t2,
+.t4.t2 {
+  background: pink;
+}
+.t1.t3,
+.t2.t3,
+.t3.t3,
+.t4.t3 {
+  background-color: rgba(242, 203, 111, 0.5);
+  overflow: hidden;
+}
+.t1.t4,
+.t2.t4,
+.t3.t4,
+.t4.t4 {
+  background-color: rgba(130, 183, 161, 0.5);
+  overflow: hidden;
+}
+.t1 .img-item,
+.t2 .img-item,
+.t3 .img-item,
+.t4 .img-item {
+  width: 482px;
+  padding: 5px;
+  margin-bottom: 5px;
+  overflow: hidden;
+  float: left;
+}
+.t1 .img-item img,
+.t2 .img-item img,
+.t3 .img-item img,
+.t4 .img-item img {
+  width: 100%;
 }

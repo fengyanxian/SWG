@@ -14,8 +14,8 @@
 	<!--<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">-->
 	<!-- Bootstrap theme -->
 	<!--<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">-->
-	<link rel="stylesheet" href="/yuHan/assets/css/all.css">
-	<link rel="shortcut icon" type="image/x-icon" href="/plugins/assets/images/favicon.ico">
+	<link rel="stylesheet" href="./assets/css/all.css">
+	<link rel="shortcut icon" type="image/x-icon" href="./assets/images/favicon.ico">
   <script src="./assets/js/jquery.min.js"></script>
   <script src="./assets/js/LiftEffect.js"></script>
   <style>
@@ -73,7 +73,7 @@
       width: 0;
       height: 0;
       z-index: -1;
-      transform: translateY(-50%);
+      transform: translateY(-51%);
       border-top: 25px solid  transparent;
       border-right:25px solid  transparent;
       border-left: 25px solid  tomato;
@@ -84,7 +84,7 @@
       color: #fff;
     }
     .lift-nav li.current:before {
-      right: -48px;
+      right: -47px;
     }
 
     .lift-target {
@@ -93,45 +93,6 @@
     h3 {
       margin: 10px 0;
     }
-    .t1,.t2,.t3,.t4 {
-      width: 1000px;
-      background: skyblue;
-      margin: 100px auto;
-      font-size: 16px;
-      border-radius: 5px;
-    }
-    .t1 {
-      margin-top: 200px;
-      padding: 10px;
-      background-color: #D7E2CD;
-    }
-    .t2{
-      background: pink;
-      padding: 10px;
-    }
-    .t2 img {
-      width: 25%;
-    }
-    .t3{
-      background-color: rgba(242, 203, 111, 0.5);
-      padding: 10px;
-    }
-    .t3 img {
-      width: 25%;
-    }
-    .t4{
-      background-color: rgba(130, 183, 161, 0.5);
-      padding: 10px;
-    }
-    .t4 img {
-      width: 25%;
-    }
-    .t5{
-      background: yellow;
-    }
-    .t6{
-      background: seagreen;
-    }
 
     .img {
       width: 100%;
@@ -139,12 +100,12 @@
     }
 
     img[animal]:hover {
-       transform: scale(1.2, 1.2);
+       transform: scale(1.1, 1.1);
     }
   </style>
 </head>
 <body>
-	<header><span>雨涵 · Yu Han</span><span>我的精彩我做主</span></header>
+	<header class="txt-center"><span>雨涵 · Yu Han</span>我的精彩 | 我做主</header>
   <div class="menu lift-nav">
     <ul class="lift">
       <li>我是一名少先队员</li>
@@ -169,46 +130,58 @@
       <p>我家的家训是尊敬老师、长辈，勤劳节俭，懂得持家，邻居之间和睦共处。自小受家庭和父母的影响，把勤劳、节俭的作风来规范自己的行动和价值观。我会努力去做，同时也会影响周围的人，让他们也做到。我现在还能主动向长辈们问好，同学之间搞好团结，有时和同学闹点小矛盾，是我的错一定主动向同学道歉，不是我的错也不追究，退一步海阔天空吗！自己的事情自己做，作业做完了，才能有娱乐时间。当天的事情当天做，不能拖拉，每天要运动，养成良好的习惯。一个好的家风家训能让我更加了解到了中国文化的进步，让我们踏出坚定的步伐，成为国家的栋梁之才，长大为国家做出更大贡献。</p>
       <p>我希望我家的家风家训能世世代代传承下去，家风家训是一种正能量，我们要时时刻刻严格要求自己。要从每个家庭做起，弘扬民族精神。</p>
 
-      <img animal src="./assets/images/home/家1.jpg" alt="家"/>
-      <img animal src="./assets/images/home/家2.jpg" alt="家"/>
-      <img animal src="./assets/images/home/家3.jpg" alt="家"/>
-      <img animal src="./assets/images/home/家4.jpg" alt="家"/>
+			<div class="img-container">
+				<div class="img-item"><img animal src="./assets/images/home/家1.jpg" alt="家"/></div>
+				<div class="img-item"><img animal src="./assets/images/home/家2.jpg" alt="家"/></div>
+				<div class="img-item"><img animal src="./assets/images/home/家3.jpg" alt="家"/></div>
+				<div class="img-item"><img animal src="./assets/images/home/家4.jpg" alt="家"/></div>
+			</div>
+
     </div>
     <div class="t3">
       <h3 class="txt-center">水质日照书画展</h3>
-      <img animal src="./assets/images/expo/水1.jpg" alt="画展"/>
-      <img animal src="./assets/images/expo/水2.jpg" alt="画展"/>
-      <img animal src="./assets/images/expo/水3.jpg" alt="画展"/>
-      <img animal src="./assets/images/expo/水4.jpg" alt="画展"/>
-      <img animal src="./assets/images/expo/水5.jpg" alt="画展"/>
-      <img animal src="./assets/images/expo/水6.jpg" alt="画展"/>
-      <img animal src="./assets/images/expo/水7.jpg" alt="画展"/>
-      <img animal src="./assets/images/expo/水8.jpg" alt="画展"/>
+			<div class="img-container">
+				<div class="img-item"><img animal src="./assets/images/expo/水1.jpg" alt="画展"/></div>
+				<div class="img-item"><img animal src="./assets/images/expo/水2.jpg" alt="画展"/></div>
+				<div class="img-item"><img animal src="./assets/images/expo/水3.jpg" alt="画展"/></div>
+				<div class="img-item"><img animal src="./assets/images/expo/水4.jpg" alt="画展"/></div>
+				<div class="img-item"><img animal src="./assets/images/expo/水5.jpg" alt="画展"/></div>
+				<div class="img-item"><img animal src="./assets/images/expo/水6.jpg" alt="画展"/></div>
+				<div class="img-item"><img animal src="./assets/images/expo/水7.jpg" alt="画展"/></div>
+				<div class="img-item"><img animal src="./assets/images/expo/水8.jpg" alt="画展"/></div>
+			</div>
     </div>
     <div class="t4">
       <h3 class="txt-center">开学安全第一课</h3>
-      <img animal src="./assets/images/safety/4.1.jpg" alt="安全第一课"/>
-      <img animal src="./assets/images/safety/4.2.jpg" alt="安全第一课"/>
-      <img animal src="./assets/images/safety/4.12.jpg" alt="安全第一课"/>
-      <img animal src="./assets/images/safety/4.13.jpg" alt="安全第一课"/>
-      <img animal src="./assets/images/safety/4.14.jpg" alt="安全第一课"/>
-      <img animal src="./assets/images/safety/4.15.jpg" alt="安全第一课"/>
-      <img animal src="./assets/images/safety/4.16.jpg" alt="安全第一课"/>
-      <img animal src="./assets/images/safety/4.21.jpg" alt="安全第一课"/>
-      <img animal src="./assets/images/safety/4.22.jpg" alt="安全第一课"/>
-
+			<div class="img-container">
+				<div class="img-item"><img animal src="./assets/images/safety/4.1.jpg" alt="安全第一课"/></div>
+				<div class="img-item"><img animal src="./assets/images/safety/4.2.jpg" alt="安全第一课"/></div>
+				<div class="img-item"><img animal src="./assets/images/safety/4.12.jpg" alt="安全第一课"/></div>
+				<div class="img-item"><img animal src="./assets/images/safety/4.13.jpg" alt="安全第一课"/></div>
+				<div class="img-item"><img animal src="./assets/images/safety/4.14.jpg" alt="安全第一课"/></div>
+				<div class="img-item"><img animal src="./assets/images/safety/4.15.jpg" alt="安全第一课"/></div>
+				<div class="img-item"><img animal src="./assets/images/safety/4.16.jpg" alt="安全第一课"/></div>
+				<div class="img-item"><img animal src="./assets/images/safety/4.21.jpg" alt="安全第一课"/></div>
+				<div class="img-item"><img animal src="./assets/images/safety/4.22.jpg" alt="安全第一课"/></div>
+			</div>
     </div>
   </div>
 
   <script>
-    $(function(){
-      LiftEffect({
-        "control1": ".lift-nav", 						  //侧栏电梯的容器
-        "control2": ".lift",                           //需要遍历的电梯的父元素
-        "target": [".t1",".t2",".t3",".t4"], //监听的内容，注意一定要从小到大输入
-        "current": "current" 						  //选中的样式
-      });
-    })
+	  var num = $("img").length;
+
+	  $("img").load(function() {
+		  num--;
+		  if (num > 0) return;
+		  $(function(){
+			  LiftEffect({
+				  "control1": ".lift-nav", 						  //侧栏电梯的容器
+				  "control2": ".lift",                           //需要遍历的电梯的父元素
+				  "target": [".t1",".t2",".t3",".t4"], //监听的内容，注意一定要从小到大输入
+				  "current": "current" 						  //选中的样式
+			  });
+		  })
+	  });
   </script>
 
 </body>

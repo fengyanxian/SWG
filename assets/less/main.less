@@ -13,32 +13,54 @@ body {
 	}
 	header {
 		.fixed(0, 0, auto, 0, 1000);
-		background: #535353;
+		background: rgba(83, 83, 83, 0.9);
 		height: 60px;
 		line-height: 60px;
 		padding: 0;
 		padding-left: 30px;
 		display: block;
 		font-family: 'Cabin', sans-serif;
-		color: #f3f3f3;
-		span:first-child {
-			transform: scale(1.2, 1.2);
-		}
-		span:last-child {
-			display: inline-block;
-			text-align: center;
+		color: #fff;
+		span {
+			transform: scale(1.3, 1.3);
+			.fixed(auto, auto, auto, 30px);
 		}
 	}
-	.menu1 {
-		.absolute(61px, auto, auto, 0, 1);
-		width: 160px;
-		background-color: #d69840;
+}
+
+.t1,.t2,.t3,.t4 {
+	width: 1000px;
+	padding: 10px;
+	background: skyblue;
+	margin: 100px auto;
+	font-size: 16px;
+	border-radius: 5px;
+	overflow: hidden;
+	
+	&.t1 {
+		margin-top: 100px;
+		background-color: #D7E2CD;
 	}
-	.main-container1 {
-		border: 1px solid red;
-		width: 90%;
-		margin-left: 160px;
-		background-color: #dbdbdb;
-		position: relative;
+	&.t2 {
+		background: pink;
+	}
+	&.t3 {
+		background-color: rgba(242, 203, 111, 0.5);
+		overflow: hidden;
+	}
+	&.t4 {
+		background-color: rgba(130, 183, 161, 0.5);
+		overflow: hidden;
+	}
+	.img-item {
+		//width: 499px;
+		width: 482px;
+		padding: 5px;
+		margin-bottom: 5px;
+		overflow: hidden;
+		float: left;
+		img {
+			width: 100%;
+		}
 	}
 }
